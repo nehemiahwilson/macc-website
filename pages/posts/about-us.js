@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -33,7 +32,7 @@ export default function Home() {
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-            <Button style={{ color: '#ffffff' }}>
+          <Button style={{ color: '#ffffff' }}>
               <Link href="/">
                 <a>HOME</a>
               </Link>
@@ -51,7 +50,7 @@ export default function Home() {
           </Toolbar>
         </AppBar>
       </div>
-      <h1>Welcome to the M@CC Website!</h1>
+      <h1>ABOUT US</h1>
     </div>
   )
 }
