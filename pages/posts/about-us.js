@@ -29,9 +29,6 @@ export default function Home() {
       <div className={classes.root}>
         <AppBar style={{ background: '#1f1f1f' }} position="static">
           <Toolbar> 
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
           <Button style={{ color: '#ffffff' }}>
               <Link href="/">
                 <a>HOME</a>
@@ -50,7 +47,7 @@ export default function Home() {
           </Toolbar>
         </AppBar>
       </div>
-      <h1>ABOUT US</h1>
+      <h1 style={{ color: "#ffffff" }}>ABOUT US</h1>
     </div>
   )
 }

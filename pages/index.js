@@ -26,32 +26,18 @@ export default function Home() {
   const classes = useStyles();
 
   return (
-    <div>
-      <div className={classes.root}>
-        <AppBar style={{ background: '#1f1f1f' }} position="static">
-          <Toolbar> 
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-            <Button style={{ color: '#ffffff' }}>
-              <Link href="/">
-                <a>HOME</a>
-              </Link>
-            </Button>
-            <Button style={{ color: '#ffffff' }}>
-              <Link href="/posts/about-us">
-                <a>ABOUT US</a>
-              </Link>
-            </Button>
-            <Button style={{ color: '#ffffff' }}>
-              <Link href="/posts/opportunities">
-                <a>OPPORTUNITIES</a>
-              </Link>
-            </Button>
-          </Toolbar>
-        </AppBar>
-      </div>
-      <h1>Welcome to the M@CC Website!</h1>
+    <div class="home-div">
+      <p class="macc-title">
+        <span style={{ color: "#EFAA6C" }}>minorities </span>
+        <span style={{ color: "#8ED6EE" }}> at </span>
+        <span style={{ color: "#EFAA6C" }}>college of computing</span>
+      </p>
+      <Link href="/posts/about-us">
+        <a class="home-link">ABOUT US</a>
+      </Link>
+      <Link href="/posts/opportunities">
+        <a class="home-link">OPPORTUNITIES</a>
+      </Link>
     </div>
   )
 }
