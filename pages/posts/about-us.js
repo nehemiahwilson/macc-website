@@ -47,7 +47,56 @@ export default function Home() {
           </Toolbar>
         </AppBar>
       </div>
-      <h1 style={{ color: "#ffffff" }}>ABOUT US</h1>
+      <div class="body">
+        <h1 class="body-title">ABOUT US</h1>
+        <p class="body-text">
+          Through academic, social, and professional events, the Minorities at
+          the College of Computing club strives to empower underrepresented
+          groups within the College of Computing with opportunities that promote
+          excellence, community development, and leadership amongst members,
+          as well as foster growth to help support the leaders of tomorrow.
+        </p>
+        <h1 class="body-title">GET PLUGGED IN</h1>
+        <p class="body-text">
+          Join our community's Discord server
+          <a class="link" href="https://discord.gg/jB3KY6X" target="_blank"> here</a>!
+        </p>
+        <p class="body-text">
+          Connect with us on
+          <a class="link" href="https://instagram.com/maccgt" target="_blank"> Instagram </a>
+          and
+          <a class="link" href="https://www.facebook.com/thefuncction/" target="_blank"> Facebook</a>!
+        </p>
+        <h1 class="body-title">EXECUTIVE BOARD</h1>
+        <div class="exec-photos-div">
+          <img class="exec-photos" src="../photos/neh.png" />
+          <img class="exec-photos" src="../photos/carver.png" />
+          <img class="exec-photos" src="../photos/liana.png" />
+          <img class="exec-photos" src="../photos/cam.png" />
+        </div>
+        <div class="exec-names-parent">
+          <div class="exec-names-div">
+            <p class="exec-names">Nehemiah Wilson</p>
+            <br/>
+            <p class="exec-names">President</p>
+          </div>
+          <div class="exec-names-div">
+            <p class="exec-names">Carver Forbes</p>
+            <br/>
+            <p class="exec-names">Vice President</p>  
+          </div>
+          <div class="exec-names-div">
+            <p class="exec-names">Liana Syrkett</p>
+            <br/>
+            <p class="exec-names">Logisitcs Lead</p>
+          </div>
+          <div class="exec-names-div">
+            <p class="exec-names">Cameron Bennett</p>
+            <br/>
+            <p class="exec-names">Curriculum Lead</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

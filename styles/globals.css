@@ -16,6 +16,10 @@ a {
   box-sizing: border-box;
 }
 
+.link {
+  color: #8ED6EE;
+}
+
 .macc-title {
   font-family: 'Trebuchet MS';
   font-weight: bolder;
@@ -36,4 +40,66 @@ a {
   font-size: 3vw;
   padding-left: 40px;
   color: white;
+}
+
+.body-title {
+  font-family: 'Trebuchet MS';
+  font-weight: bolder;
+  font-size: 4vw;
+  color: white;
+}
+
+.body-text {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: 2.3vw;
+  text-justify: inter-word;
+  color: gray;
+}
+
+.body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: justify;
+}
+
+.exec-photos-div {
+  text-align: center;
+}
+
+.exec-photos {
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 12vw;
+}
+
+.exec-names-parent {
+  text-align: center;
+}
+
+.exec-names-div {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+.exec-names {
+  display: inline;
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: 1.5vw;
+  text-justify: inter-word;
+  color: white;
+}
+
+.opp-grid {
+  margin-top: 5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opp-photo {
+  width: 300px;
 }

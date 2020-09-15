@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import Grid from '@material-ui/core/Grid';
 
 import Link from 'next/link';
 
@@ -47,7 +48,36 @@ export default function Home() {
           </Toolbar>
         </AppBar>
       </div>
-      <h1 style={{ color: "#ffffff" }}>OPORTUNITIES</h1>
+      <div class="body">
+        <h1 class="body-title">OPPORTUNITIES</h1>
+        <p class="body-text">
+          Looking for a job? You've come to the right place.
+          Click on an opportunity that interests you and apply!
+        </p>
+        <div class="opp-grid">
+          <Grid container spacing={3}>
+            <Grid item xs={4}>
+              <a href="https://buildyourfuture.withgoogle.com/programs/step/" target="_blank">
+                <img class="opp-photo" src="../photos/google.png"/>
+              </a>
+              <p class="body-text">Google STEP</p>
+            </Grid>
+            <Grid item xs={4}>
+            <a href="https://careers.twitter.com/en/university.html" target="_blank">
+                <img class="opp-photo" src="../photos/twitter.png"/>
+              </a>
+              <p class="body-text">TwitterU</p>
+            </Grid>
+            <Grid item xs={4}>
+            <a href="https://www.facebook.com/careers/students-and-grads/students" target="_blank">
+                <img class="opp-photo" src="../photos/facebook.png"/>
+              </a>
+              <p class="body-text">Facebook University</p>
+            </Grid>
+          </Grid>
+        </div>
+        
+      </div>
     </div>
   )
 }
