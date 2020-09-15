@@ -69,10 +69,10 @@ export default function Home() {
         </p>
         <h1 class="body-title">EXECUTIVE BOARD</h1>
         <div class="exec-photos-div">
-          <img class="exec-photos" src="../exec-photos/neh.png" />
-          <img class="exec-photos" src="../exec-photos/carver.png" />
-          <img class="exec-photos" src="../exec-photos/liana.png" />
-          <img class="exec-photos" src="../exec-photos/cam.png" />
+          <img class="exec-photos" src="../photos/neh.png" />
+          <img class="exec-photos" src="../photos/carver.png" />
+          <img class="exec-photos" src="../photos/liana.png" />
+          <img class="exec-photos" src="../photos/cam.png" />
         </div>
         <div class="exec-names-parent">
           <div class="exec-names-div">

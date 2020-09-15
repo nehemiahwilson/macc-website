@@ -92,3 +92,14 @@ a {
   text-justify: inter-word;
   color: white;
 }
+
+.opp-grid {
+  margin-top: 5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opp-photo {
+  width: 300px;
+}
