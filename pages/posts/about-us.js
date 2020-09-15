@@ -59,7 +59,7 @@ export default function Home() {
         <h1 class="body-title">GET PLUGGED IN</h1>
         <p class="body-text">
           Join our community's Discord server
-          <a class="link" href="https://discord.gg/jB3KY6X" target="_blank">here</a>!
+          <a class="link" href="https://discord.gg/jB3KY6X" target="_blank"> here</a>!
         </p>
         <p class="body-text">
           Connect with us on
