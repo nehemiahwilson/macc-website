@@ -67,6 +67,10 @@ export default function Home() {
           and
           <a class="link" href="https://www.facebook.com/thefuncction/" target="_blank"> Facebook</a>!
         </p>
+        <p class="body-text">
+          Find the code from our workshops on our
+          <a class="link" href="https://github.com/mach33n/AR.js-Demo" target="_blank"> GitHub</a>
+        </p>
         <h1 class="body-title">EXECUTIVE BOARD</h1>
         <div class="exec-photos-div">
           <img class="exec-photos" src="../photos/neh.png" />
