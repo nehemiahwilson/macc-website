@@ -1,0 +1,105 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.link {
+  color: #8ED6EE;
+}
+
+.macc-title {
+  font-family: 'Trebuchet MS';
+  font-weight: bolder;
+  font-size: 5vw;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-div {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.home-link {
+  font-family: 'Trebuchet MS';
+  font-weight: normal;
+  font-size: 3vw;
+  padding-left: 40px;
+  color: white;
+}
+
+.body-title {
+  font-family: 'Trebuchet MS';
+  font-weight: bolder;
+  font-size: 4vw;
+  color: white;
+}
+
+.body-text {
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: 2.3vw;
+  text-justify: inter-word;
+  color: gray;
+}
+
+.body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: justify;
+}
+
+.exec-photos-div {
+  text-align: center;
+}
+
+.exec-photos {
+  margin-left: 35px;
+  margin-right: 35px;
+  max-width: 12vw;
+}
+
+.exec-names-parent {
+  text-align: center;
+}
+
+.exec-names-div {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+}
+
+.exec-names {
+  display: inline;
+  font-family: 'Trebuchet MS';
+  font-weight: lighter;
+  font-size: 1.5vw;
+  text-justify: inter-word;
+  color: white;
+}
+
+.opp-grid {
+  margin-top: 5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opp-photo {
+  width: 300px;
+}
